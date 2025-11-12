@@ -1,7 +1,35 @@
-venv/
+# Python cache and build files
 __pycache__/
-.ipynb_checkpoints/
+*.py[cod]
 *.pyc
-.DS_Store
+*$py.class
+
+# Virtual environments
+venv/
 .env
+.venv/
+env/
+ENV/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+
+# Logs and temp files
+*.log
 .cache/
+*.tmp
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Optional
+__pypackages__/
