@@ -85,6 +85,9 @@ Duplicate and irrelevant data -	Regex-based filtering and keyword extraction
 LLM hallucinations - Strict prompt template with “Answer only if context available”
 Dependency issues -	Fixed by pinning torch==2.2.2+cpu, numpy<2.0
 
+If I had more time I would deployed it on the Streamlit app for a great user interface with 
+good deign
+
 Data Files
 data/raw/bom_loan_data.csv - Raw scraped text
 data/processed/bom_loan_clean.csv -	Cleaned text for embeddings
